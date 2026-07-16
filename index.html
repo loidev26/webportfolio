@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS Link -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<!-- Bootstrap Icon Link -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+		<!-- Google Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=swap" rel="stylesheet">
+
+		<!-- External CSS -->
+		<link rel="stylesheet" type="text/css" href="./index.css">
+
+		<title>Portfolio</title>
+	</head>
+	<body>
+
+		<!-- navbar start -->
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+		    <div class="container">
+		    	<!-- logo -->
+		        <a class="navbar-brand" href="#about">LOISA</a>
+
+		        <!-- Desktop Menu -->
+		        <div class="d-none d-lg-flex ms-auto">
+		        	<ul class="navbar-nav">
+    	               <li class="nav-item">
+    	                   <a class="nav-link active" aria-current="page" href="#landing">About</a>
+    	               </li>
+    	               <li class="nav-item ms-4">
+    	                   <a class="nav-link" href="#education">Education</a>
+    	               </li>
+    	               <li class="nav-item ms-4">
+    	                   <a class="nav-link" href="#projects">Projects</a>
+    	               </li>
+    	               <li class="nav-item ms-4">
+    	                   <a class="nav-link" href="#tools">Tools</a>
+    	               </li>
+    	               <li class="nav-item ms-4">
+    	                   <a class="nav-link" href="#contact">Contact</a>
+    	               </li>
+    	           </ul>
+		        </div>
+
+		        <!-- Mobile Hamburger -->
+		        <button class="navbar-toggler"
+		            type="button"
+		            data-bs-toggle="offcanvas"
+		            data-bs-target="#mobileMenu"
+		            aria-controls="mobileMenu"
+		            aria-expanded="false"
+		            aria-label="Toggle navigation">
+		            <span class="navbar-toggler-icon"></span>
+		        </button>
+
+			    <!-- Navigation Links Mobile -->
+			    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="mobileMenu">
+			    	<div class="offcanvas-header">
+		               <h5 class="fw-bold ms-2">Menu</h5>
+		               <button type="button"
+		                       class="btn-close fs-4"
+		                       data-bs-dismiss="offcanvas">
+		               </button>
+	           		</div>
+	           		<div class="offcanvas-body">
+	           			<ul class="navbar-nav m-3">
+	           			    <li class="nav-item bi"><a class="nav-link active bi-file-person" aria-current="page" href="#landing">   About</a></li>
+	           			    <li class="nav-item"><a class="nav-link bi bi-mortarboard" href="#education"> Education</a></li>
+	           			    <li class="nav-item"><a class="nav-link bi bi-laptop" href="#projects"> Projects</a></li>
+	           			    <li class="nav-item"><a class="nav-link bi bi-tools" href="#tools"> Tools</a></li>
+	           			    <li class="nav-item"><a class="nav-link bi bi-telephone" href="#contact"> Contact</a></li>
+	           			</ul>
+	           		</div>
+			    </div>
+			    <!-- Navigation Links Mobile End -->
+		   </div>
+		</nav>
+		<!-- navbar end -->
+
+		<!-- Landing Start -->
+		<section id="landing">
+			<div class="container">
+				<div class="row my-auto">
+					<div class="col-md-6 py-5">
+						<p class="full-stack-web-developer">FULL STACK WEB DEVELOPER</p>
+						<h2 class="fw-bold">Hi, It's <span class="border-bottom border-2 border-success">Loisa</span></h2>
+						<p>I am a career shifter transitioning into full-stack software development. Through an intensive, immersive bootcamp at Zuitt combined with dedicated self-learning, I spend hours every week coding and building hands-on projects. Right now, my toolkit includes HTML, CSS, Bootstrap, JavaScript, and Figma. I am incredibly passionate about continuing to learn and gaining professional experience in full-stack web development.</p>
+						<div class="d-flex">
+							<a href="#projects" class="btn btn-primary bg-dark text-light me-2 border-0 px-3 py-2 rounded project-btn">View Projects</a>
+							<a href="#contact" class="btn btn-primary bg-transparent contact-btn px-3 py-2 rounded">Contact Me</a>
+						</div>
+					</div>
+					<div class="col-md-6 d-grid gap-3">
+						<div>
+							<img src="./images/loi.png" class="img-fluid ms-5 w-50 shadow-lg rounded">
+						</div>
+						<div>
+							<a href="#" class="btn btn-primary bg-transparent contact-btn px-3 py-2 rounded available-a">
+							    Available for <div class="text-dark fw-bold fs-5">Work</div>
+							</a>
+						</div>				
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Landing End -->
+
+		<!--  Education Start -->
+		<section id="education" class="my-5 py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 border-end">
+						<h3>Academic Journey</h3>
+						<p>
+							Continuous learning is the core of my engineering philosophy as I grow as a full-stack web developer, constantly improving my skills and embracing new technologies.
+						</p>
+					</div>
+					<div class="col-md-8">
+						<div class="mb-5">
+							<p class="educ-year">2018-2022</p>
+							<h4>Bachelors of Science In Information Technology</h4>
+							<p>Focused on algorithms, data structures, and software engineering principles.</p>
+						</div>
+						<div>
+							<p class="educ-year">2026-Present</p>
+							<h4>Full Stack Web Developer</h4>
+							<p>Intensive full-stack web development training focused on creating responsive web applications. Learned front-end, back-end, databases, APIs, and modern development workflows through hands-on projects using industry-relevant technologies make this shorter</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Education End -->
+
+		<!-- Projects Start -->
+		<section id="projects" class="my-5 py-5">
+			<div class="container">
+				<h2 class="text-center fw-semibold">Featured Projects</h2>
+				<div class="row g-4 mt-5">
+					<!-- Project 1 -->
+					<div class="col-12 col-md-6 col-lg-4">
+
+						<div class="card shadow-lg h-100">
+						    <img src="https://elastic-path.files.svdcdn.com/static/resources-blog/ecommerce_api_medium_com_graphic-min.png" class="card-img-top p-3" alt="Project Image">
+
+						    <div class="card-body">
+						        <h5 class="card-title">E-commerce API Documentation</h5>
+						        <p class="card-text">Dynamic E-Commerce Workflow
+								Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management.
+								Documented Backend API published publicly using Postman.
+								</p>
+						    </div>
+						</div>
+					</div>
+					<!-- Project 2 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card shadow-lg h-100">
+						    <img src="https://developer.bookingtime.com/hc/article_attachments/12762232060700" class="card-img-top p-3" alt="Project Image">
+
+						    <div class="card-body">
+						        <h5 class="card-title">Course Booking API Documentation</h5>
+						        <p class="card-text">A RESTful API for managing course
+								enrollments, featuring user registration, authentication, and retrieval of user details. Supports course creation, updates, archiving, activation, and student enrollment.
+								Publicly documented using Postman.
+								</p>
+						    </div>
+						</div>
+					</div>
+					<!-- Project 3 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card shadow-lg h-100">
+						    <img src="https://www.bookeo.com/wp-content/uploads/2021/08/booking-page-classes.jpg" class="card-img-top p-3" alt="Project Image">
+
+						    <div class="card-body">
+						        <h5 class="card-title">Course booking App</h5>
+						        <p class="card-text">A MERN-stack course enrollment
+								system featuring user registration, authentication, and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.
+								</p>
+						    </div>
+						</div>
+					</div>
+				
+					<!-- Project 4 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card shadow-lg h-100">
+						    <img src="https://media.apptunix.com/wp-content/uploads/sites/3/2024/09/28104303/1-E28093-20-2.png" class="card-img-top p-3" alt="Project Image">
+
+						    <div class="card-body">
+						        <h5 class="card-title">E-commerce App</h5>
+						        <p class="card-text">Dynamic E-Commerce Workflow
+								Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management.
+								Documented Backend API published publicly using Postman.
+								</p>
+						    </div>
+						</div>
+					</div>
+					<!-- Project 5 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card shadow-lg h-100">
+						    <img src="https://uizard.io/static/d82a10bf39caa5e34ad1d57cbbd03939/0cfa7/ed1accfd0b959c32106122282df00f4fca048340-1440x835.webp" class="card-img-top p-3" alt="Project Image">
+
+						    <div class="card-body">
+						        <h5 class="card-title">Airline Booking System
+								Mockup</h5>
+						        <p class="card-text">Side Project: Conceptual design
+								showcasing an intuitive Ul for flight
+								search, seat selection, and booking confirmation, focusing on user experience and workflow efficiency.
+								</p>
+						    </div>
+						</div>
+					</div>
+					<!-- Project 6 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card shadow-lg h-100">
+						    <img src="https://d3h2k7ug3o5pb3.cloudfront.net/image/2019-07-02/26dc9040-9c95-11e9-89fe-65439ce9c536.png" class="card-img-top p-3" alt="Project Image">
+
+						    <div class="card-body">
+						        <h5 class="card-title">Airline Booking System
+								Prototype</h5>
+						        <p class="card-text">Side Project: Interactive prototype
+								simulating end-to-end airline
+								booking functionalities, including flight search, reservation, payment processing, and real-time ticket management.
+								</p>
+						    </div>
+						</div>
+					</div>
+					<!-- Project 7 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card shadow-lg h-100">
+						    <img src="https://www.apponix.com/front/images/app-java.jpeg" class="card-img-top p-3" alt="Project Image">
+
+						    <div class="card-body">
+						        <h5 class="card-title">Short Courses Capstone</h5>
+						        <p class="card-text">Dynamic E-Commerce Workflow
+									Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management.
+									Documented Backend API published publicly using Postman.
+								</p>
+						    </div>
+						</div>
+					</div>
+					<!-- Project 8 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="card shadow-lg h-100">
+						    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/500px-PHP-logo.svg.png" class="card-img-top p-3" alt="Project Image">
+
+						    <div class="card-body">
+						        <h5 class="card-title">Short Courses Capstone</h5>
+						        <p class="card-text">Dynamic E-Commerce Workflow
+									Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management.
+									Documented Backend API published publicly using Postman.
+								</p>
+						    </div>
+						</div>
+					</div>
+					<!-- Project 9 -->
+					<div class="col-12 col-md-6 col-lg-4 mx-md-auto mx-lg-0">
+						<div class="card shadow-lg h-100">
+						    <img src="https://pcr.cloud-mercato.com/static/img/logo/aws.png" class="card-img-top p-3" alt="Project Image">
+
+						    <div class="card-body">
+						        <h5 class="card-title">Short Courses Capstone</h5>
+						        <p class="card-text">Dynamic E-Commerce Workflow
+									Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management.
+									Documented Backend API published publicly using Postman.
+								</p>
+						    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Projects End -->
+
+		<!-- Tools Start -->
+		<section id="tools" class="my-5 py-5">
+			<h2 class="tools-title text-center">Technical Expertise</h2>
+			<div class="container">
+				<div class="row g-4 mt-5">
+					<!-- Tools & Design cars -->
+				 	<div class="col-12 col-lg-6">
+					    <div class="card h-100">
+					      	<div class="card-body d-flex flex-column">
+						      	<div class="bi bi-tools fs-5 tools-icon mb-3 ms-4"></div>
+						      	<h3 class="card-title ms-4">Tools & Design</h3>
+						      	<div class="my-auto">
+						      		<div class="row g-2 text-center">
+						      			<div class="col-6 col-md-6 col-lg-3">
+						      				<a href="https://www.sublimetext.com/"><img src="https://upload.wikimedia.org/wikipedia/en/d/d2/Sublime_Text_3_logo.png"></a>
+						      				<p>Sublime</p>
+						      			</div>
+						      			<div class="col-6 col-md-6 col-lg-3">
+						      				<a href="https://code.visualstudio.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCOTIV4Tb4h16YNEwanHL3esW2nwwumHYqAFgcVaMUOw&s"></a>
+						      				<p>VS Code</p>
+						      			</div>
+						      			<div class="col-6 col-md-6 col-lg-3">
+						      				<a href="https://git-scm.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/3840px-Git_icon.svg.png"></a>
+						      				<p>Git</p>
+						      			</div>
+						      			<div class="col-6 col-md-6 col-lg-3">
+						      				<a href="https://github.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg"></a>
+						      				<p>GitHub</p>
+						      			</div>		      		
+					      				<div class="col-6 col-md-6 col-lg-3">
+					      					<a href="https://trello.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSEo2Pd9mX50BZ9yAIobJkf00J9S1yVD2Ii0RlOFsHwibGRsTbKYYvHTFD&s=10"></a>
+					      					<p>Trello</p>
+					      				</div>
+					      				<div class="col-6 col-md-6 col-lg-3">
+					      					<a href="https://www.figma.com/login?is_not_gen_0=true&resource_type=team"><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"></a>
+					      					<p>Figma</p>
+					      				</div>	
+					      				<div class="col-6 col-md-6 col-lg-3">
+					      					<a href="https://bitrise.io/integrations/steps/heroku-deploy"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHsxT4loNg3Z3u9oU5mFBhoFtgFPU0NZyfRQ_j19Pp0eyuna-E"></a>
+					      					<p>Heroku</p>
+					      				</div>	
+					      				<div class="col-6 col-md-6 col-lg-3">
+					      					<a href="https://www.postman.com/"><img src="https://yt3.googleusercontent.com/XRzDTgEa9GybH_Uk21E9ri6_iYh-9gbyZzhiEBCnLjISgjTorjMiu7IwpChUMf2lLpEdX6ufDA=s900-c-k-c0x00ffffff-no-rj"></a>
+					      					<p>Postman</p>
+					      				</div>			      		
+						      		</div>				    						    	
+								</div>
+							</div>
+						</div>
+				  	</div>
+				  	<!-- Core Development -->
+					<div class="col-12 col-lg-6">
+					    <div class="card h-100">
+					      <div class="card-body d-flex flex-column">
+					      	<div class="bi bi-window-fullscreen fs-5 tools-icon mb-2 ms-4"></div>
+					      	<h3 class="card-title ms-4">Core Development</h3>
+					      	<div class="my-auto mx-auto">
+  						      	<!-- Front-End -->
+  						      	<p class="card-text">Front-End</p>
+			      				<div class="row g-5">
+			      					<div class="col-6 col-md-6 col-lg-3">
+			      						<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://zonalogo.com/assets/html-logo-png-svg.webp?asset=3499"></a>
+			      						<p>HTML</p>
+			      					</div>
+			      					<div class="col-6 col-md-6 col-lg-3">
+			      						<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/"><img src="https://static.cdnlogo.com/logos/c/18/css.svg"></a>
+			      						<p>CSS</p>
+			      					</div>
+			      					<div class="col-6 col-md-6 col-lg-3">
+			      						<a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-v42H99SXvb8arSNytKFNFIMMDlTgjy2y0QIhgkhEww&s=10"></a>
+			      						<p>Bootstrap</p>
+			      					</div>
+			      					<div class="col-6 col-md-6 col-lg-3">
+			      						<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/500px-Unofficial_JavaScript_logo_2.svg.png"></a>
+			      						<p>JS</p>
+			      					</div>
+			      				</div>	    
+			   
+				      	    	<!-- MERN -->
+	  	    			      	<p class="card-text">MERN</p>	    	     
+	    	      				<div class="row g-5">
+	    	      					<div class="col-6 col-md-6 col-lg-3">
+	    	      						<a href="https://www.mongodb.com/lp/cloud/atlas/try4-reg?utm_source=google&utm_campaign=search_gs_pl_evergreen_mongodb_core-high-int_prosp-brand_gic-null_apac-multi_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=23921105718&adgroup=192588031170&cq_cmp=23921105718&gad_source=1&gad_campaignid=23921105718&gbraid=0AAAAADQ14016E6JiAs9mIXwbKx12Br5XS&gclid=Cj0KCQjw39zSBhDhARIsANammDuqII-RnRGiStMiyZnmOx75CWWyL1YMImUq2xW_x_NGMae_qvQcz70aAqc5EALw_wcB"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQeR4PcK0SKkom18eo9Comebg9_1zTRKHmfjq1ttvag-ruiB6JqOO4ZhNB&s=10"></a>
+	    	      						<p>MongoDB</p>
+	    	      					</div>
+	    	      					<div class="col-6 col-md-6 col-lg-3">
+	    	      						<a href="https://expressjs.com/">
+	    	      							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2pmmq4V2eYpZ1t-pw5Mnf8TsOGnVvxVdJrUmc-9Smxa5aqvCZOKpqb0I&s=10">
+	    	      						</a>
+	    	      						<p>Express.js</p>
+	    	      					</div>
+	    	      					<div class="col-6 col-md-6 col-lg-3">
+	    	      						<a href="https://react.dev/"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR_qNxaBOHbfYkzWgZPHwDFYY03_Owt7gSoluzY2_1CQ7bK58Xp"></a>
+	    	      						<p>React</p>
+	    	      					</div>
+	    	      					<div class="col-6 col-md-6 col-lg-3">
+	    	      						<a href="https://nodejs.org/en"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"></a>
+	    	      						<p>NodeJS</p>
+	    	      					</div>
+  		    	      			</div>
+					      	</div>    
+    	      	    	</div>				   
+					</div>		
+				</div>
+			</div>
+		</section>
+		<!-- Tools End -->
+
+		<!-- Contact Start -->
+		<section id="contact" class="my-5 py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-lg-6 p-5">
+
+						<h3>
+							Get In Touch
+						</h3>
+						<p>
+							Currently looking for new opportunities in full-stack engineering. Let's
+							discuss your project.
+						</p>
+						<div class="d-flex">
+							<div class="bi bi-envelope fs-1 p-2 mt-1 me-3">
+							</div>
+							<div class="">
+								<p class="mt-3 mb-0">Email</p>
+								<p class="mb-0">loisaamper07@gmail.com</p>
+							</div>
+						</div>
+						<div class="d-flex">
+							<div class="bi bi-geo-alt fs-1 p-2 mt-1 me-3">
+							</div>
+							<div class="">
+								<p class="mt-3 mb-0">location</p>
+								<p class="mb-0">SJDM, BULACAN</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6">
+						<form class="w-100 p-5">
+							<div class="d-md-flex gap-2">
+					            <div class="mb-3 flex-grow-1">
+					                <label for="name" class="form-label">Name</label>
+					                <input type="text" class="form-control" id="name" placeholder="John Doe">
+					            </div>
+
+					            <div class="mb-3 flex-grow-1">
+					                <label for="email" class="form-label">Email</label>
+					                <input type="text" class="form-control" id="email" placeholder="johndoe@example.com">
+					            </div>
+					        </div>
+						  
+						  	<div class="mb-3">
+							  	<label for="message" class="form-label">Message</label>
+							  	<textarea class="form-control" id="message" rows="7" placeholder="Type here your message..."></textarea>
+							</div>
+							<button type="submit" class="btn btn-dark w-100">Send Message</button>
+						</form>
+					</div>
+				</div>			
+			</div>
+		</section>
+		<!-- Contact End -->
+
+		<!-- Footer Start -->
+		<footer id="footers" class="p-3">
+			<div class="d-flex gap-3 justify-content-center align-items-center">
+				<div>
+					<a href="https://www.linkedin.com/login/?session_redirect=%2Fm%2Flogout%2F">LinkedIn</a>
+				</div>
+				<div>
+					<a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fgithub%2Fgitignore">GitHub</a>
+				</div>
+				<div>
+					<a href="https://www.google.com/search?q=resume+samplke&oq=resume+samplke&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIPCAEQABhDGLEDGIAEGIoFMg8IAhAAGEMYsQMYgAQYigUyDwgDEAAYQxixAxiABBiKBTIPCAQQABhDGLEDGIAEGIoFMgwIBRAAGEMYgAQYigUyEggGEAAYQxiDARixAxiABBiKBTISCAcQABhDGIMBGLEDGIAEGIoFMg8ICBAAGEMYsQMYgAQYigUyDAgJEAAYQxiABBiKBdIBCDE4NjdqMGo3qAIIsAIB8QUVRXuUmTXbPg&sourceid=chrome&source=chrome.ob&ie=UTF-8#sv=CAMSZhowKg41TDdOeWpLTklMYzZUTTIONUw3TnlqS05JTGM2VE06DmF6S0xVdW1fXzhYM0dNIAQqLgoaX2ZQdFhhcE9WT2F6ZTJyb1B3UFdMRUFfNDQSDjVMN055aktOSUxjNlRNGAAwARgHIJaHn-oKSggQARgBIAEoAQ">Resume</a>
+				</div>
+			</div>
+			
+			<p class="text-center">Designed & Built by Loisa © 2026</p>
+		</footer>
+		<!-- Footer End -->
+
+		<!-- Bootstrap JS Script -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
