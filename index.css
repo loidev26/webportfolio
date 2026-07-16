@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", inter;
 }
 
 /* Navbar CSS Start */
@@ -39,7 +39,7 @@ body {
 
 /* Navbar CSS End */
 
-/* Landing CSS Start */
+/* Landing & Project CSS Start */
 
 #landing {
     min-height: calc(100vh - 80px);
@@ -55,18 +55,18 @@ body {
     align-items: center;
 }
 
-#landing .project-btn:hover {
+#landing .project-btn:hover, .btn-live-demo:hover {
   background: #006C49 !important;
   color: white !important;
   transform: scale(1.05);
 }
 
-#landing .contact-btn {
+#landing .contact-btn, .btn-github{
   color: #006C49;
   border: 1px solid #006C49;
 }
 
-#landing .contact-btn:hover {
+#landing .contact-btn:hover, .btn-github:hover {
   background-color: #006C49 !important;
   border-color: #006C49;
   color: #fff;
@@ -86,8 +86,19 @@ body {
 
 /* Project CSS Start */
 
-#project .card {
-  background: #006C49 !important;
+#projects .card-title {
+  color: #006C49;
+  font-weight: bold;
+}
+
+#projects .card-text {
+  font-family: "inter";
+  margin-top: 10px;
+}
+
+.btn-live-demo {
+  background-color: black !important;
+  color: white !important;
 }
 
 .card-img-top {
