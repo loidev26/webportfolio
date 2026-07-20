@@ -2,18 +2,34 @@ body {
   font-family: "Montserrat", inter;
 }
 
+/* text */
+
+.text-jetbrains {
+  font-family: "JetBrains Mono";
+}
+
+.text-montserrat {
+  font-family: "Montserrat";
+}
+
+.text-inter {
+  font-family: "Inter";
+}
+/* text-end */
+
 /* Navbar CSS Start */
 
 .navbar {
-    background: #F8F9FF;
+    background: #F8F9FACC;
     padding: 1rem 0;
 }
 
 .navbar-brand {
-    font-weight: 700;
+    font-weight: 900;
 } 
 
 .navbar-nav .nav-link {
+  font-family: "JetBrains Mono";
   color: #45464D;
   font-weight: 600;
 }
@@ -43,11 +59,12 @@ body {
 
 #landing {
     min-height: calc(100vh - 80px);
+    background-color: #FCFCFF;
 }
 
 .full-stack-web-developer {
   font-family: "JetBrains Mono";
-  color: #006C49 !important;
+  font-weight: 800;
 }
 
 #landing .row {
@@ -71,15 +88,6 @@ body {
   border-color: #006C49;
   color: #fff;
   transform: scale(1.05);
-}
-
-.available-a {
-  font-family: "JetBrains Mono";
-}
-
-.educ-year {
-  font-family: "JetBrains Mono";
-  color: #006C49 !important;
 }
 
 /* Landing CSS End */
